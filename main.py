@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*- 
 import fitz
-pdffile = r"C:\Users\felipemello\Documents\develop\ocrplanilhapdf\example.pdf"
+pdffile = r"example.pdf"
 doc = fitz.open(pdffile)
 zoom = 4
 mat = fitz.Matrix(zoom, zoom)
